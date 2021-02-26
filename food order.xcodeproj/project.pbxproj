@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		1622C50325E8FE0D003E8144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622C50225E8FE0D003E8144 /* AppDelegate.swift */; };
 		1622C50525E8FE0D003E8144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622C50425E8FE0D003E8144 /* SceneDelegate.swift */; };
-		1622C50725E8FE0D003E8144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622C50625E8FE0D003E8144 /* ViewController.swift */; };
 		1622C50A25E8FE0D003E8144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1622C50825E8FE0D003E8144 /* Main.storyboard */; };
 		1622C50C25E8FE11003E8144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1622C50B25E8FE11003E8144 /* Assets.xcassets */; };
 		1622C50F25E8FE11003E8144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1622C50D25E8FE11003E8144 /* LaunchScreen.storyboard */; };
 		1622C51A25E8FE11003E8144 /* food_orderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622C51925E8FE11003E8144 /* food_orderTests.swift */; };
 		1622C52525E8FE11003E8144 /* food_orderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1622C52425E8FE11003E8144 /* food_orderUITests.swift */; };
+		16B06BEA25E926E200D812C4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06BE925E926E200D812C4 /* WelcomeViewController.swift */; };
+		16B06BF225E9271300D812C4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06BF125E9271300D812C4 /* SignInViewController.swift */; };
+		16B06BF725E9272B00D812C4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06BF625E9272B00D812C4 /* SignUpViewController.swift */; };
+		16B06BFC25E9276400D812C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06BFB25E9276400D812C4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		1622C4FF25E8FE0D003E8144 /* food order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1622C50225E8FE0D003E8144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1622C50425E8FE0D003E8144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1622C50625E8FE0D003E8144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1622C50925E8FE0D003E8144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1622C50B25E8FE11003E8144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1622C50E25E8FE11003E8144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		1622C52025E8FE11003E8144 /* food orderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food orderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1622C52425E8FE11003E8144 /* food_orderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_orderUITests.swift; sourceTree = "<group>"; };
 		1622C52625E8FE11003E8144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B06BE925E926E200D812C4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		16B06BF125E9271300D812C4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		16B06BF625E9272B00D812C4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		16B06BFB25E9276400D812C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,12 @@
 			children = (
 				1622C50225E8FE0D003E8144 /* AppDelegate.swift */,
 				1622C50425E8FE0D003E8144 /* SceneDelegate.swift */,
-				1622C50625E8FE0D003E8144 /* ViewController.swift */,
+				16B06BE825E9264500D812C4 /* Auth */,
 				1622C50825E8FE0D003E8144 /* Main.storyboard */,
 				1622C50B25E8FE11003E8144 /* Assets.xcassets */,
 				1622C50D25E8FE11003E8144 /* LaunchScreen.storyboard */,
 				1622C51025E8FE11003E8144 /* Info.plist */,
+				16B06BFB25E9276400D812C4 /* Extensions.swift */,
 			);
 			path = "food order";
 			sourceTree = "<group>";
@@ -126,6 +133,16 @@
 				1622C52625E8FE11003E8144 /* Info.plist */,
 			);
 			path = "food orderUITests";
+			sourceTree = "<group>";
+		};
+		16B06BE825E9264500D812C4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				16B06BE925E926E200D812C4 /* WelcomeViewController.swift */,
+				16B06BF125E9271300D812C4 /* SignInViewController.swift */,
+				16B06BF625E9272B00D812C4 /* SignUpViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1622C50725E8FE0D003E8144 /* ViewController.swift in Sources */,
+				16B06BF725E9272B00D812C4 /* SignUpViewController.swift in Sources */,
+				16B06BEA25E926E200D812C4 /* WelcomeViewController.swift in Sources */,
 				1622C50325E8FE0D003E8144 /* AppDelegate.swift in Sources */,
+				16B06BF225E9271300D812C4 /* SignInViewController.swift in Sources */,
 				1622C50525E8FE0D003E8144 /* SceneDelegate.swift in Sources */,
+				16B06BFC25E9276400D812C4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
